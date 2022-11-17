@@ -6,7 +6,7 @@ simpleC IS NOT designed to be a permanent solution to the way c++ is written; it
 
 # what's in simpleC
  - simpleIo is a basic in out system
-![simpleMathDemo](simpleMathDemo.jpg)
+![simpleMathDemo](simpleIoDemo.jpg)
  - simpleList is a easy way to manage and work with lists
  ![simpleListDemo](simpleListDemo.jpg)
  - simpleMath is a easy way to do some math (v basic right now)
