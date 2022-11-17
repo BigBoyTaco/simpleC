@@ -3,6 +3,10 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
+
+#include "simpleList.h"
+#include "simpleSys.h"
 
 namespace simpleC::io
 {
@@ -54,28 +58,6 @@ namespace simpleC::io
         else
             std::cout << "]";
     }
-
-    //WORK IN PROGRESS, NOT WORKING
-    //read/write/open files
-    class fileStream
-    {
-    public:
-        //WORK IN PROGRESS, NOT WORKING
-        fileStream(std::string filePath)
-        {
-            //open file idk
-        }
-        //returns a std::string of file contents
-        std::string read()
-        {
-            //read file
-        }
-        //returns a std::list<std::string> of every line in file
-        std::list<std::string> readLines()
-        {
-            //read all lines
-        }
-    };
 }
 
 #endif //SIMPLEC_SIMPLEIO_H

@@ -4,11 +4,10 @@
 #define SIMPLEC_SIMPLEC_H
 
 #include <string>
-#include <list>
 
 namespace simpleC
 {
-    std::string _version_ = "0.0.1";
+    std::string _version_ = "0.0.2";
     std::string _credits_ = "https://github.com/BigBoyTaco";
 }
 
