@@ -35,10 +35,9 @@ namespace simpleC::list
         return 0;
     }
     //add item to end of list
-    std::list<std::string> append(std::list<std::string> lst, std::string item)
+    void append(std::list<std::string>& lst, std::string item)
     {
         lst.push_back(item);
-        return lst;
     }
 }
 

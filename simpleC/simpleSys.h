@@ -1,15 +1,12 @@
-#ifndef SIMPLEC_SIMPLESYS_H
-#define SIMPLEC_SIMPLESYS_H
+#pragma once
 
 #include <string>
 #include <filesystem>
-#include <fstream>
 
-namespace simpleC::simpleSys
+namespace simpleC::sys
 {
     std::string getCwd() {
-        return std::filesystem::current_path();
+        std::string path = std::filesystem::current_path().generic_string();
+        return path;
     }
 }
-
-#endif //SIMPLEC_SIMPLESYS_H

@@ -17,13 +17,13 @@ namespace simpleC::string
         {
             if(i == seperator)
             {
-                lst = list::append(lst, tmp);
+                list::append(lst, tmp);
                 tmp = "";
             }
             else
                 tmp += i;
         }
-        lst = list::append(lst, tmp);
+        list::append(lst, tmp);
         return lst;
     }
 }

@@ -1,5 +1,4 @@
-#ifndef SIMPLEC_SIMPLEIO_H
-#define SIMPLEC_SIMPLEIO_H
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -14,6 +13,13 @@ namespace simpleC::io
     void print(auto item, bool endl=true)
     {
         if(endl)
+            std::cout << item << std::endl;
+        else
+            std::cout << item;
+    }
+    void print(float item, bool endl=true)
+    {
+        if (endl)
             std::cout << item << std::endl;
         else
             std::cout << item;
@@ -59,5 +65,3 @@ namespace simpleC::io
             std::cout << "]";
     }
 }
-
-#endif //SIMPLEC_SIMPLEIO_H
